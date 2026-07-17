@@ -5,6 +5,7 @@ import Container from "./components/Container.jsx";
 import Card from "./components/Card.jsx";
 import Counter from "./components/Counter.jsx";
 import Toggle from "./components/Toggle.jsx";
+import TaskManager from "./components/TaskManager.jsx";
 function App() {
   const cards = [
     { id: 1, title: "Home", body: "Welcome home" },
@@ -33,7 +34,7 @@ function App() {
       </Container> */}
 
       {/* Task 4 */}
-      <Container>
+      {/* <Container>
         {cards.map((card) => (
           <Card key={card.id} title={card.title}>
             <p>{card.body}</p>
@@ -42,7 +43,10 @@ function App() {
       </Container>
 
       <Counter />
-      <Toggle />
+      <Toggle /> */}
+
+      {/* TASK 5 */}
+      <TaskManager />
     </div>
   );
 }
