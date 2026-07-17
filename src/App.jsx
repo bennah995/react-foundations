@@ -3,6 +3,8 @@ import ProfileCard from "./components/ProfileCard.jsx";
 
 import Container from "./components/Container.jsx";
 import Card from "./components/Card.jsx";
+import Counter from "./components/Counter.jsx";
+import Toggle from "./components/Toggle.jsx";
 function App() {
   const cards = [
     { id: 1, title: "Home", body: "Welcome home" },
@@ -38,6 +40,9 @@ function App() {
           </Card>
         ))}
       </Container>
+
+      <Counter />
+      <Toggle />
     </div>
   );
 }
