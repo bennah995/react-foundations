@@ -1,0 +1,1 @@
+Did not use ai for day 1
